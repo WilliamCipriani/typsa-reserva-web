@@ -1,0 +1,104 @@
+
+
+
+.gradient-custom-2 {
+  background: #fccb90;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #ac6681);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #ac6681);
+}
+
+.gradient-form {
+  background: #fff;
+  min-height: 100vh;
+}
+.gradient-form .card {
+  border: none;
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+}
+.gradient-form .form-control:focus {
+  border-color: #005c99;
+  box-shadow: none;
+}
+
+.gradient-form .btn-outline-dark {
+  color: #001f4d;
+  border-color: #001f4d;
+}
+.gradient-form .btn-outline-dark:hover {
+  background-color: #001f4d;
+  border-color: #001f4d;
+}
+.gradient-form .btn-outline-dark:focus {
+  box-shadow: none;
+}
+
+.gradient-form .btn-outline-danger {
+  color: #fff;
+  border-color: #dc3545;
+}
+.gradient-form .btn-outline-danger:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.gradient-form .btn-outline-danger:focus {
+  box-shadow: none;
+}
+
+.gradient-form .link-danger:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.formOutline {
+  position: relative;
+}
+
+.formControl {
+  padding-right: 2.5rem;
+}
+
+.passwordToggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-75%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  -webkit-transform: translateY(-75%);
+  -moz-transform: translateY(-75%);
+  -ms-transform: translateY(-75%);
+  -o-transform: translateY(-75%);
+}
+
+.passwordToggle svg {
+  fill: #777;
+  width: 24px;
+  height: 24px;
+}
+
+.passwordToggle:focus svg,
+.passwordToggle:hover svg {
+  fill: #333;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,51 @@
+.navbar {
+  background: #fccb90;
+    /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #ac6681); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #ac6681);
+    
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link.home{
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link.signout {
+  font-weight: bold;
+  color: #fff;
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: bold ;
+  font-size: 30px ;
+  color: #fff !important;
+}
+
+.signup-btn {
+  background-color: #fff;
+  color: #333;
+  border-color: #fff;
+  font-weight: bold;
+}
+.navbar-nav{
+  
+}
+
+.navbar-nav:hover {
+  color: #dc3545;
+  font-size: 19px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

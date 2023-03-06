@@ -1,0 +1,31 @@
+
+.form {
+  z-index: -2147483647 !important;
+  max-width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #91b6f6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.form label {
+  font-size: 1.2rem;
+}
+
+.form input,
+.form select {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.form-select {
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    margin-right: 1rem;
+  }
+  

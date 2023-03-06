@@ -1,19 +1,27 @@
 {
   "name": "typsa-reserva-v1",
   "version": "0.1.0",
+  "homepage": "https://github.com/WilliamCipriani/typsa-reserva-v1/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "vite-build",
+    "deply": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
     "@date-io/date-fns": "^2.16.0",
     "@fullcalendar/common": "^5.11.4",
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
     "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/list": "^6.1.4",
     "@fullcalendar/react": "^6.1.4",
+    "@fullcalendar/resource": "^6.1.4",
+    "@fullcalendar/resource-timeline": "^6.1.4",
     "@fullcalendar/timegrid": "^6.1.4",
     "@next/font": "13.1.6",
     "axios": "^1.3.3",
@@ -22,11 +30,16 @@
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "fullcalendar": "^6.1.4",
+    "gh-pages": "^5.0.0",
     "next": "13.1.6",
     "next-transpile-modules": "^10.0.0",
     "react": "18.2.0",
+    "react-bootstrap-validation": "^0.1.11",
     "react-calendar": "^4.0.0",
     "react-datetime": "^3.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.8.1",
+    "styled-components": "^5.3.6"
   }
 }

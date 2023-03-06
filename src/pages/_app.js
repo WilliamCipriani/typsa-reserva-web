@@ -1,11 +1,8 @@
 /* eslint-disable react/jsx-no-undef */
 import Head from "next/head";
+import HeaderPage from '../components/header/header';
 import "bootstrap/dist/css/bootstrap.min.css";
-import '@/styles/globals.css';
-import '@/styles/index.css';
-import '@/styles/registro.css';
-import { useEffect } from "react";
-
+import '@/styles/calendar.css';
 
 
 export default function App({ Component, pageProps }) {
@@ -21,11 +18,18 @@ export default function App({ Component, pageProps }) {
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossOrigin="anonymous"
         />
+        <link 
+          src="https://cdnjs.cloudflare.com/ajax/libs/react-modal/3.14.3/react-modal.min.js"
+          integrity="sha512-MY2jfK3DBnVzdS2V8MXo5lRtr0mNRroUI9hoLVv2/yL3vrJTam3VzASuKQ96fLEpyYIT4a8o7YgtUs5lPjiLVQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <link 
+        rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+        />
       </Head>
-
       
-
-
+      <HeaderPage />
       <Component {...pageProps} />
     </>
   );
