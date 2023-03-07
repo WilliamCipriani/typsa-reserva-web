@@ -25,8 +25,11 @@ export default function App({ Component, pageProps }) {
           referrerpolicy="no-referrer"
         />
         <link 
-        rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+          rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" 
         />
+        <link rel='icon' href='/img/newLogo.ico' /> 
+        <title>Typsa Reservas</title>
+           
       </Head>
       
       <HeaderPage />
